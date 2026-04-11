@@ -130,4 +130,25 @@ footer{
     color: aliceblue;
     text-align: center;
 }
+@media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .flex-item{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    .heading{
+        font-size: 24px;
+    }
+    .para p{
+        font-size: 14px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
  
